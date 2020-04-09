@@ -59,8 +59,7 @@ Python 3.5.2
 You can find the program in the following GitHub repository
 https://github.com/angelicacosta/Ternary-Balance
 
-Version 1 - balance.py - does not handle invalid inputs
-Version 2 - balance.py - restructuring of version 1 and invalid inputs handling
+Version 2 - balance.py - restructuring of balance.py and invalid inputs handling
 
 ## Authors
 
