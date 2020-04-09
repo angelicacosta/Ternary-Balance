@@ -15,11 +15,23 @@ Follow the instructions at the web site.
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+You can test the functions by typing:
+```
+$ make test
+```
 
 ### Unit tests
 
-Currently, there are no unit tests
+In the file test_balance.py you can see the tests made for the following functions:
+
+- summing: Given an array of integers, returns the sum of its values.
+- stringarray: Given an array of integers, returns a string made of those integer with the following format. eg: 
+    ```
+    stringarray([1,2,3])
+    1, 2, 3
+    ```
+- need: Given a positive integer value, returns the maximum power of 3 to represent such value and the result of the corresponding power.
+- weighting: Given a positive integer value, returns two arrays with integers that represent the weights needed to weight such value in a ternary balance. The first array represents the weights in the left side of the balance (where the initial weight is) and the second array represents the weight in the right side.
 
 ### Validation tests
 
@@ -27,12 +39,10 @@ When you execute the program you can check that the answer is correct by checkin
 
 
 ```
-$ python3.8 balance.py 
-Please write how much you want to weight: 
-100
+$ make 
+Please write how much you want to weight: 100
 right: 81 27 1 
 left: 100 9 
-
 
 ```
 
@@ -50,6 +60,7 @@ You can find the program in the following GitHub repository
 https://github.com/angelicacosta/Ternary-Balance
 
 Version 1 - balance.py - does not handle invalid inputs
+Version 2 - balance.py - restructuring of version 1 and invalid inputs handling
 
 ## Authors
 
